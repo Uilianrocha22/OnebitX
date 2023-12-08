@@ -1,0 +1,121 @@
+.container00 {
+  &.container05 {
+    background-image: url("../imagens/falcon9/01.jpg");
+  }
+  &.container06 {
+    background-image: url("../imagens/falcon9/02.jpg");
+  }
+  &.carrossel01 {
+    background-image: url("../imagens/falcon9/03.jpg");
+  }
+  &.carrossel02 {
+    background-image: url("../imagens/falcon9/04.jpg");
+  }
+  &.carrossel03 {
+    background-image: url("../imagens/falcon9/05.jpg");
+  }
+  &.carrossel04 {
+    background-image: url("../imagens/falcon9/06.jpg");
+  }
+  &.carrossel05 {
+    background-image: url("../imagens/falcon9/07.jpg");
+  }
+
+  &.container07 {
+    background-image: url("../imagens/falcon9/08.jpg");
+  }
+}
+
+.titlefalcon9 {
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 514;
+}
+
+.titlecontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+.numbers {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .titlenumb {
+    font-size: 90px;
+  }
+  .subtitlenumb {
+    font-size: 20px;
+  }
+}
+.containerfalcon9desc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+.falcon9desc {
+  font-size: 22px;
+  width: 640px;
+  line-height: 50px;
+}
+
+#overviewposition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+.carouselslide {
+  img {
+    height: 100vh;
+  }
+}
+.carrousseltext {
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+  .numbers {
+    .titlenumb {
+      font-size: 80px;
+    }
+    .subtitlenumb {
+      font-size: 18px;
+    }
+  }
+  #overviewposition {
+    padding-top: 35%;
+  }
+  .falcon9desc {
+    width: auto;
+  }
+}
+
+@media (max-width: 577px) {
+  .numbers {
+    height: 60vh;
+  }
+  #overviewposition {
+    width: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .titlefalcon9 {
+    font-size: 50px;
+  }
+  .falcon9desc {
+    font-size: 20px;
+    line-height: auto;
+  }
+  .subtitlefalcon {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,112 @@
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+#navitem:hover {
+  color: $link-hover;
+}
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowdown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.logopc {
+  width: 240px;
+  margin-left: -12px;
+  margin-right: 40px;
+}
+
+#button {
+  padding: $padding-button;
+  border: 2px solid white;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: $link-hover;
+    }
+  }
+
+  .copyUO {
+    color: $copy-color;
+  }
+}
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+
+  .emailOBC {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+
+    &:hover {
+      color: $link-hover;
+      border-bottom: 1px solid $link-hover;
+    }
+  }
+
+  button {
+    padding: 15px;
+    border: 2px solid white;
+    margin-right: 10px;
+  }
+}
+.emailOBC {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+
+  &:hover {
+    color: $link-hover;
+    border-bottom: 1px solid $link-hover;
+  }
+}
+// media query
+
+@media (max-width: 492px) {
+  .downloadDesc {
+    button {
+      margin: 10px 0px;
+    }
+  }
+}
+
+@media (max-width: 405px) {
+  .logopc {
+    width: 180px;
+    margin-top: 15px;
+  }
+
+  .footer {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .logopc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
